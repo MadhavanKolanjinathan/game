@@ -21,7 +21,7 @@ function setup() {
   columns = canvas.width / scale; // Recalculate columns after setting canvas size
   snake = new Snake();
   food = generateFood();
-  window.setInterval(gameLoop,140);
+  window.setInterval(gameLoop,150);
 }
 
 // Game loop
